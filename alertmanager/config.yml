@@ -8,5 +8,5 @@ receivers:
   - name: 'slack-notifications'
     slack_configs:
       - api_url: 'SLACK_WEBHOOK_URL_PLACEHOLDER'  # Replace with your webhook
-        channel: '#alerts'
+        channel: '#new-channel'
         send_resolved: true
